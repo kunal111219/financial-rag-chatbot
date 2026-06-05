@@ -45,7 +45,7 @@ if uploaded_file and not st.session_state.doc_processed:
             tmp_path = tmp.name
         chunks = load_and_split(tmp_path)
         vectorstore = create_vectorstore(chunks)
-        chain, retriever = build_rag_chain(vectorstore)   # ✅ unpack both
+        chain, retriever = build_rag_chain(vectorstore)   
         st.session_state.chain = chain
         st.session_state.retriever = retriever
         st.session_state.doc_processed = True

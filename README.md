@@ -1,11 +1,11 @@
 # 💹 Financial RAG Chatbot
 
-An AI-powered chatbot that lets you chat with financial documents 
+An AI-powered chatbot that lets you chat with financial documents
 (annual reports, 10-K filings, earnings calls) using RAG architecture.
 
 ## 🛠 Tech Stack
 
-- **LLM:** Groq LLaMA3-8B (fastest inference)
+- **LLM:** Groq llama-3.1-8b-instant (fastest inference)
 - **Framework:** LangChain
 - **Embeddings:** HuggingFace sentence-transformers
 - **Vector DB:** FAISS
@@ -14,7 +14,7 @@ An AI-powered chatbot that lets you chat with financial documents
 
 ## 🚀 Live Demo
 
-[Click here to try it](your-streamlit-url)
+[Click here to try it](https://financial-rag-chatbot-hvtehvgvo4a7toyypuwa2y.streamlit.app/)
 
 ## 📊 Features
 
